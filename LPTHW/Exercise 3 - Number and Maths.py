@@ -1,6 +1,7 @@
 # + plus
 # - minus
 # / slash
+# // This is called floor division and it will round down your calculation
 # * asterik
 # % percent (Gives you the remainder of a division, known as Modulo)
 # < less-than

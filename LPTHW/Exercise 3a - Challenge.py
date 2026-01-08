@@ -16,4 +16,6 @@ money_left = money - total_spent
 
 print("I have spent £", total_spent) # This shows what I have spent
 
-print("Is my remaining balance enough to buy a £75.00 software license?", money_left > 75, "I have £", money_left, "left to spend") # This uses a True or False statement to show if I havce enough money to purchase another item
+# This uses a True or False statement to show if I havce enough money to purchase another item
+
+print("Is my remaining balance enough to buy a £75.00 software license?", money_left > 75, "I have £", money_left, "left to spend")
