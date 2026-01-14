@@ -30,3 +30,13 @@ print(10 // 3) # This operation will round down the division giving us 3 instead
 # D - Division /
 # A - Addition +
 # S - Subtraction -
+
+
+total_pence = 592
+coins = total_pence // 200  # Here we are working out how many £2 coins fit inside 592p
+print(coins)
+
+change = total_pence % 200  # Here we are working out how much change we will have left over
+print(change)
+
+print(-10 % 3) # This return a postive number back and not a negative
