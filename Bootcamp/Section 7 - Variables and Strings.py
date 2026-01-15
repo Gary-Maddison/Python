@@ -29,7 +29,50 @@ print("Gary Maddison") # What you open your string with you close with
 print('Gary Maddison')
 print('Gary said "Hello"') # Here I want show " " within the string so I use single quotes
 
-# String Escape Characters
+# String Escape Characters  
 
+# \n - New Line
+
+print
+
+# \\
+print("This is a backslash: \\")
+
+# If you are double quotes within double quotes or single within single you need to use the escape character \
+
+print("Gary said \"Hello\"")
+
+# String Concatenation
+
+string_one = "Hello"
+string_two = "World"
+print(string_one + " " + string_two) # Here we are concatenating two strings with a space in between
+
+# You can use the += operator to add to a string variable
+
+greeting = "Gary"
+greeting += " World"    
+print(greeting)  # This adds " World" to the end of the greeting variable
+
+# Formatting Strings
+
+x = 10
+formatted = f"I've told you {x} times"  # This is a formatted string as we want to include the value of x
+print(formatted)
+
+name = "Gary" 
+print(f"Hi {name}, how are you?") # Here we are using a formatted string to include the name variable
+
+# String and Indexes
+
+name = "lol" # Each letter is indexed [0,1,2] - Indices always start with 0
+print(name[0])  # Here I am print l
+print(name[1])  # Here I am printing o
+print(name[2])  # Here I am print l
+
+# Converting Data Types
+
+decimal = 12.4445
+integer = int(decimal) # Here we are converting a float into a integer, thus giving us 12
 
 
