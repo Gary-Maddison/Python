@@ -1,0 +1,17 @@
+ls - list
+ls Python - This allows you to look inside the folder without going into it.
+pwd - shows path (Where you are)
+clear - clear screen
+cd - change directory (cd Users, cd Gary Maddison, cd OneDrive
+cd.. - Takes you back one level
+cd ~ - This takes you back to the main directory from anywhere
+cd "Gary Maddison" - If a folder as a space insert " "
+cd \ - Takes you back to the root directory
+mkdir (name) - This creates a new folder 
+New-Item (name.py or "two names.py") - This creates a new file
+rm (name) - This deletes a file
+rm -r -fo (name) - This removes a folder
+Ctrl + C - Kill Command when stuck in a loop
+
+
+"C:\Users\Gary Maddison\Python"
