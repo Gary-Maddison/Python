@@ -10,4 +10,4 @@ people = 5
 coins_per_person = gold_coins // people
 coins_remaining = gold_coins % people 
 
-print(f"Each person receives {coins_per_person} and {coins_remaining} coins will remian.")
+print(f"Each person receives {coins_per_person} and {coins_remaining} coins will remain.")
