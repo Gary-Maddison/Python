@@ -7,4 +7,8 @@ successfully captured!)
 
 """
 
+balance = float(input("Please enter your bank balance £"))
+name = input("Please enter your full name: ").strip().upper()
+
+print(f"{name} your balance is £{balance}")
 
