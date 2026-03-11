@@ -5,3 +5,10 @@ both identifiers to the screen to prove whether altering the second one affected
 
 """
 
+first = "Hello"
+second = first
+
+second = first + " World!!!"
+
+print(first)
+print(second)
