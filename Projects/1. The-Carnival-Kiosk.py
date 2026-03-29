@@ -1,7 +1,7 @@
 """
 - **Payment Processing:** If the user is eligible, check if they have enough money in their wallet 
 to afford their specific ticket price. If they do, deduct the price from their wallet balance and grant 
-them access. If they do not, deny them access due to insufficient funds.
+them access. If they do not, deny them access due to insufficient funds
 
 """
 
