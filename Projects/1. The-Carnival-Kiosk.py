@@ -51,3 +51,5 @@ elif ride_eligibility and not has_funds:
     print("You do not have sufficient funds to ride.")
 else:
     print("Sorry " + user_name + " you are not tall enough to ride. You have " + str(wallet_balance) + " left.")
+
+    
